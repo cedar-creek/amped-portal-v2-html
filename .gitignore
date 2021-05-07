@@ -1,0 +1,12 @@
+.DS_Store
+.vscode
+go.sum
+.iris.yml
+node_modules/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
