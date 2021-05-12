@@ -8,7 +8,7 @@ $root-font-size-lg:                             	13px; // Root font size for tab
 $root-font-size-md:                             	12px; // Root font size for mobile mode
 
 // Content background Color
-$content-bg-color: 									$gray-100 !default;
+$content-bg-color: 									$gray-amped !default; //$gray-100 !default;
 $content-border-radius:								1.5rem !default;
 
 // Content Spacing
@@ -61,7 +61,7 @@ $aside-config: (
 	transition-speed: 0.3s, // transition speed
 	padding-x: 25px,
 	menu-indention: 0.75rem,
-	bg-color: #1e1e2d,
+	bg-color: $gray-amped,
 	width: 265px, // Aside width for desktop mode
 	minimized-width: 75px,  // Aside minimized width for desktop mode
 	box-shadow: 0 0 28px 0 rgba(82,63,105,.05), // Aside box shadow

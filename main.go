@@ -1,6 +1,10 @@
 package main
 
-import "github.com/kataras/iris/v12"
+import (
+	"math/rand"
+
+	"github.com/kataras/iris/v12"
+)
 
 func main() {
 	app := iris.New()
@@ -10,8 +14,13 @@ func main() {
 
 	app.HandleDir("/assets", iris.Dir("./demo1/dist/assets"))
 
+	app.UseGlobal(func(ctx iris.Context) {
+		ctx.ViewData("Ver", rand.Float64())
+		ctx.Next()
+	})
+
 	app.Get("/", func(ctx iris.Context) {
-		ctx.View("index.html") 
+		ctx.View("index.html")
 	})
 
 	app.Listen(":8080")

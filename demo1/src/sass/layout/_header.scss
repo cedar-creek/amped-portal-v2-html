@@ -12,6 +12,7 @@
 		z-index: 2;
 		height: get($header-config, default, height, desktop);
 		transition: left get($aside-config, transition-speed) ease;
+		border-bottom: 1px solid #d46300;
 
 		// Fixed header & sticky header modes
 		.header-fixed & {

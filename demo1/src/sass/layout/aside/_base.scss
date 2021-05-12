@@ -6,8 +6,9 @@
 .aside {
 	display: flex;
 	flex-direction: column;
-	box-shadow: get($aside-config, box-shadow);
+	box-shadow: get($aside-config, box-shadow);           
 	padding: 0;
+	border-right: 1px solid #d46300;
 
 	// Dark theme
 	&.aside-dark {
@@ -15,7 +16,8 @@
 
 		// Logo
 		.aside-logo {
-			background-color: darken(get($aside-config, bg-color), 3%);
+			background-color: $gray-amped; //darken(get($aside-config, bg-color), 3%);
+			border-bottom: 1px solid #d46300;
 		}
 
 		// Aside toggle
