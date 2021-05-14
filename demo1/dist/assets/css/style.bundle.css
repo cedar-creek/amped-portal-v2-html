@@ -22,7 +22,7 @@
   --bs-warning: #FFC700;
   --bs-danger: #F1416C;
   --bs-dark: #181C32;
-  --bs-font-sans-serif: Poppins, Helvetica, "sans-serif";
+  --bs-font-sans-serif: "Roboto", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
@@ -46427,7 +46427,7 @@ body {
   padding: 0px;
   font-size: 13px !important;
   font-weight: 400;
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: "Roboto", sans-serif;
   background-color: #1a1a1a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46975,4 +46975,16 @@ canvas {
   .content {
     padding: 15px 0;
   }
+}
+/* cutstom scss rules */
+.border-353535 {
+  border-color: #353535;
+}
+
+.border-style-solid {
+  border-style: solid;
+}
+
+.svg-icon.svg-color-primary svg [fill]:not(.permanent):not(g) {
+  fill: #D46300;
 }

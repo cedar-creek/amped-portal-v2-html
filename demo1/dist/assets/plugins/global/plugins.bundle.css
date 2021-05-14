@@ -28348,7 +28348,7 @@ readers do not read off random characters that represent icons */
   border: 0;
   width: auto;
   box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: "Roboto", sans-serif;
   z-index: 1000;
   border-radius: 0.475rem;
 }
@@ -29333,7 +29333,7 @@ table.dataTable > thead .sorting_desc:after {
 }
 
 .ql-toolbar {
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: "Roboto", sans-serif;
 }
 .ql-toolbar.ql-snow {
   border: 1px solid #EFF2F5;
@@ -29790,7 +29790,7 @@ body.swal2-height-auto {
 .apexcharts-text,
 .apexcharts-title-text,
 .apexcharts-legend-text {
-  font-family: Poppins, Helvetica, "sans-serif" !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .apexcharts-title-text {
@@ -29958,7 +29958,7 @@ body.swal2-height-auto {
   box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075) !important;
 }
 .leaflet-container .leaflet-popup-content-wrapper .leaflet-popup-content {
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 

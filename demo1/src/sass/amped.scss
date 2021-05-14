@@ -1,0 +1,11 @@
+/* cutstom scss rules */
+
+.border-353535 {
+    border-color: #353535;
+}
+.border-style-solid {
+    border-style: solid;
+}
+.svg-icon.svg-color-primary svg [fill]:not(.permanent):not(g) {
+    fill: $primary;
+}
