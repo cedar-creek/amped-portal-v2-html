@@ -23,5 +23,5 @@ func main() {
 		ctx.View("index.html")
 	})
 
-	app.Listen("ampedtest.cedarcreeksolutions.com:8083")
+	app.Listen(":8083")
 }
