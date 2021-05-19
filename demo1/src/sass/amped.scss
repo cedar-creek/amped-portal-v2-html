@@ -9,3 +9,14 @@
 .svg-icon.svg-color-primary svg [fill]:not(.permanent):not(g) {
     fill: $primary;
 }
+
+.aside.aside-dark .aside-toggle svg [fill]:not(.permanent):not(g) {
+    fill: #512F12!important;
+}
+.aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
+    transition: fill 0.3s ease;
+    fill: #4D443D!important;
+}
+.menu-state-bullet-primary .menu-item .menu-link.active, .menu-state-bg .menu-item .menu-link:hover:not(.disabled):not(.active) {
+    background-color: #838383!important;
+}
