@@ -14,7 +14,7 @@
     fill: #512F12!important;
 }
 .aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
-    fill: #4D443D!important;
+    fill: #512F12!important;
 }
 .menu-state-bullet-primary .menu-item .menu-link.active, .menu-state-bg .menu-item .menu-link:hover:not(.disabled):not(.active) {
     background-color: #838383!important;
@@ -26,5 +26,11 @@
     fill: #D46300!important;
 }
 .btn-check:checked + .btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn-check:active + .btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:focus:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:hover:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary:active:not(.btn-active) .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.active .svg-icon svg [fill]:not(.permanent):not(g), .btn.btn-active-color-primary.show .svg-icon svg [fill]:not(.permanent):not(g), .show > .btn.btn-active-color-primary .svg-icon svg [fill]:not(.permanent):not(g) {
+    fill: #D46300!important;
+}
+.aside-dark .menu .menu-item .menu-link:hover:not(.disabled):not(.active) {
+    background-color: #838383!important;
+}
+.aside-dark .menu .menu-item .menu-link:hover .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
     fill: #D46300!important;
 }
