@@ -23,5 +23,9 @@ func main() {
 		ctx.View("index.html")
 	})
 
+	app.Get("/analytics", func(ctx iris.Context) {
+		ctx.View("analytics.html")
+	})
+
 	app.Listen(":8083")
 }
