@@ -27,5 +27,10 @@ func main() {
 		ctx.View("analytics.html")
 	})
 
+	app.Get("/login", func(ctx iris.Context) {
+		ctx.ViewLayout("shared/layout-empty.html")
+		ctx.View("login.html")
+	})
+
 	app.Listen(":8083")
 }

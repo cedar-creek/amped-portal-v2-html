@@ -30770,6 +30770,10 @@ textarea.form-control-lg {
   background-color: #000000 !important;
 }
 
+.bg-gray {
+  background-color: #1a1a1a !important;
+}
+
 .bg-opacity-0 {
   background-color: rgba(var(--bg-color), 0) !important;
 }

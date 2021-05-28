@@ -73,6 +73,11 @@
 	background-color: $black !important;
 }
 
+// Background black color
+.bg-gray {
+	background-color: $gray-amped!important;
+}
+
 // Opacity
 @each $name, $value in $opacity-values {
 	.bg-opacity-#{$name} {
