@@ -46630,7 +46630,7 @@ canvas {
     right: 0;
     left: 0;
     z-index: 99;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
   }
   .toolbar-enabled:not(.toolbar-fixed) .toolbar {
@@ -46661,7 +46661,7 @@ canvas {
     right: 0;
     left: 0;
     z-index: 99;
-    background-color: #ffffff;
+    background-color: #1a1a1a;
     box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
   }
   .toolbar-enabled:not(.toolbar-tablet-and-mobile-fixed) .toolbar {
