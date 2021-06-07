@@ -32,5 +32,9 @@ func main() {
 		ctx.View("login.html")
 	})
 
+	app.Get("/program", func(ctx iris.Context) {
+		ctx.View("program.html")
+	})
+
 	app.Listen(":8083")
 }

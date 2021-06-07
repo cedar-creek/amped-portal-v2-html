@@ -47024,3 +47024,21 @@ canvas {
 .aside-dark .menu .menu-item .menu-link:hover .menu-icon .svg-icon svg [fill]:not(.permanent):not(g) {
   fill: #D46300 !important;
 }
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1.2rem;
+}
+.overlay-bottom svg {
+  border: 1px solid #d46300;
+  border-radius: 50%;
+}
+.overlay-bottom svg path {
+  fill: #d46300 !important;
+}
