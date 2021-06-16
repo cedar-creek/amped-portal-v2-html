@@ -1068,7 +1068,32 @@ var KTWidgets = function () {
         };
 
         var chart = new ApexCharts(element, options);
-        chart.render();   
+        chart.render();
+        
+        $('#update-chart61').on('click', function() {
+            options.series[0].data = [10, 20, 30, 40, 50, 60];
+            chart.updateSeries(options.series); 
+        })
+        $('#update-chart62').on('click', function() {
+            options.series[0].data = [69, 59, 68, 16, 50, 44];
+            chart.updateSeries(options.series); 
+        })
+        $('#update-chart63').on('click', function() {
+            options.series[0].data = [78, 38, 79, 98, 58, 58];
+            chart.updateSeries(options.series); 
+        })
+        $('#update-chart64').on('click', function() {
+            options.series[0].data = [33, 84, 28, 93, 86, 99];
+            chart.updateSeries(options.series); 
+        })
+        $('#update-chart65').on('click', function() {
+            options.series[0].data = [75, 83, 29, 53, 31, 37];
+            chart.updateSeries(options.series); 
+        })
+        $('#update-chart66').on('click', function() {
+            options.series[0].data = [15, 56, 2, 80, 35, 67];
+            chart.updateSeries(options.series); 
+        })
     }
 
     var initChartsWidget7 = function() {
